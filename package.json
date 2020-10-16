@@ -6,11 +6,13 @@
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dummy": "json-server --watch db.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },
